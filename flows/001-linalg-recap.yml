@@ -39,3 +39,13 @@ completion_text: |
     # End of Linear Algebra Recap
 
     Now you're ready to take the [quiz](flow:quiz-test).
+
+external_resources:
+
+-
+    title: Numpy
+    url: https://numpy.org/doc/
+
+-
+    title: JupyterLab
+    url: https://scicomp-jupyterlab.cs.illinois.edu/lab/
