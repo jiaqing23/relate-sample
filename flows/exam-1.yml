@@ -7,7 +7,7 @@ rules:
     start:
     -
         if_has_role: [instructor, ta, student]
-        if_has_fewer_sessions_than: 1000000
+        if_has_fewer_sessions_than: 1
         if_in_facility: test_center
         may_start_new_session: True
         may_list_existing_sessions: True
@@ -19,8 +19,8 @@ rules:
         may_list_existing_sessions: True
 
     -
-        may_start_new_session: True
-        may_list_existing_sessions: True
+        may_start_new_session: False
+        may_list_existing_sessions: False
 
     access:
     -
@@ -88,3 +88,14 @@ pages:
 completion_text: |
 
     You have successfully completed the test exam!
+
+
+external_resources:
+
+-
+    title: Numpy
+    url: https://numpy.org/doc/
+
+-
+    title: JupyterLab
+    url: https://scicomp-jupyterlab.cs.illinois.edu/lab/
