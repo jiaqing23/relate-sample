@@ -19,8 +19,8 @@ rules:
         may_list_existing_sessions: True
 
     -
-        may_start_new_session: False
-        may_list_existing_sessions: False
+        may_start_new_session: True
+        may_list_existing_sessions: True
 
     access:
     -
