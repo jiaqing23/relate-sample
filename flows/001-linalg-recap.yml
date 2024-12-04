@@ -19,6 +19,8 @@ pages:
 
         # A little distraction to start (updated)
 
+        Go to tabbed page [Click here](ext-resource-tabs).
+
         Yadda yadda.
 
         {% from "content-macros.jinja" import youtube %}
